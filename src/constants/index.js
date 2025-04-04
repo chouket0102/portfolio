@@ -35,40 +35,56 @@ import {
   twitter,
   yourlogo,
 } from "../assets";
+import { Linkedin, Github, Facebook, Instagram } from 'lucide-react';
 
-export const navigation = [
+export const socials = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "LinkedIn",
+    icon: Linkedin,
+    url: "https://www.linkedin.com/in/yasser-chouket-9b15b8285/",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "GitHub",
+    icon: Github,
+    url: "https://github.com/chouket0102",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Facebook",
+    icon: Facebook,
+    url: "https://www.facebook.com/yasser.chouket.1",
+  },
+ ,
+];
+export const navigation = [
+  {
+    id: "0",
+    title: "Home",
+    url: "#home",
+  },
+  {
+    id: "1",
+    title: "Summary",
+    url: "#summary",
+  },
+  {
+    id: "2",
+    title: "Projects",
+    url: "#projects",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Skills",
+    url: "#skills",
   },
   {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+    id:"4",
+    title:"Contact",
+    url:"#contact"
+  }
+  
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -78,9 +94,10 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Web Development",
+  "Data & ML",
+  "AI Agents",
+  
 ];
 
 export const brainwaveServicesIcons = [
@@ -94,26 +111,26 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
+    title: "Patient Managment System",
     text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    date: "Spring Boot | React | PostgreSQL",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
+    title: "AI Travel Planner",
     text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
+    date: "React | FireBase",
     status: "progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
+    title: "Multi Agents",
     text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    date: "RAG | Python",
     status: "done",
     imageUrl: roadmap3,
   },
@@ -240,89 +257,7 @@ export const pricing = [
     ],
   },
 ];
+export const benefits = [ { id: "0", title: "Ask anything", text: "Lets users quickly find answers to their questions without having to search through multiple sources.", backgroundUrl: "./src/assets/benefits/card-1.svg", iconUrl: benefitIcon1, imageUrl: benefitImage2, }, { id: "1", title: "Improve everyday", text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.", backgroundUrl: "./src/assets/benefits/card-2.svg", iconUrl: benefitIcon2, imageUrl: benefitImage2, light: true, }, { id: "2", title: "Connect everywhere", text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.", backgroundUrl: "./src/assets/benefits/card-3.svg", iconUrl: benefitIcon3, imageUrl: benefitImage2, }, { id: "3", title: "Fast responding", text: "Lets users quickly find answers to their questions without having to search through multiple sources.", backgroundUrl: "./src/assets/benefits/card-4.svg", iconUrl: benefitIcon4, imageUrl: benefitImage2, light: true, }, { id: "4", title: "Ask anything", text: "Lets users quickly find answers to their questions without having to search through multiple sources.", backgroundUrl: "./src/assets/benefits/card-5.svg", iconUrl: benefitIcon1, imageUrl: benefitImage2, }, { id: "5", title: "Improve everyday", text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.", backgroundUrl: "./src/assets/benefits/card-6.svg", iconUrl: benefitIcon2, imageUrl: benefitImage2, }, ];
 
-export const benefits = [
-  {
-    id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-    light: true,
-  },
-  {
-    id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
-    iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
-    light: true,
-  },
-  {
-    id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-  },
-];
 
-export const socials = [
-  {
-    id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
-  },
-  {
-    id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
-  },
-  {
-    id: "2",
-    title: "Instagram",
-    iconUrl: instagram,
-    url: "#",
-  },
-  {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
-  },
-];
+
