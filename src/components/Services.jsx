@@ -7,7 +7,7 @@ const skills = [
   "Data Engineering ",
   "Software Development",
   "Machine Learning",
-  "Database Management",
+  
   
 ]
 
@@ -32,7 +32,7 @@ const About = () => {
             <div className="relative z-1 w-full md:w-3/5 md:pl-12">
               <h4 className="text-3xl font-bold mb-4">Yasser Chouket</h4>
               <p className="text-lg mb-6 text-gray-300">
-                I'm a software engineering student at INSAT specializing in Data Engineering. With a passion for turning
+                I'm a software engineering student at INSAT. With a passion for turning
                 complex problems into scalable solutions, I combine technical expertise with creative problem-solving to
                 build efficient and innovative applications.
               </p>

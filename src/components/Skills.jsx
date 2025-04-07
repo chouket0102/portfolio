@@ -14,7 +14,7 @@ const skillSets = {
       {
         id: "1",
         title: "Frameworks",
-        items: ["Django", "Express.js", "Spring Boot", "Flask", "Next.js"]
+        items: ["Django", "Express.js", "Spring Boot", "Flask"]
       },
       {
         id: "2",
@@ -29,7 +29,7 @@ const skillSets = {
       {
         id: "0",
         title: "Core Technologies",
-        items: ["HTML5", "CSS3", "JavaScript", "TypeScript", "Sass", "WebGL"]
+        items: ["HTML5", "CSS3", "JavaScript", "TypeScript"]
       },
       {
         id: "1",

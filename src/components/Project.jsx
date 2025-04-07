@@ -15,7 +15,7 @@ const Projects = () => {
       title: "Virtual Interview Coach",
       description:
         "AI-powered interview preparation platform that provides personalized feedback, practice sessions, and coaching using advanced language models.",
-      tags: ["Next.js","AI"],
+      tags: ["Next.js","Firebase","VAPI"],
       githubUrl: "https://github.com/chouket0102/virtual-interview",
       liveUrl: "",
       colorAccent: "from-emerald-500 to-teal-500",
