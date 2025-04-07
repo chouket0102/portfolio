@@ -19,7 +19,7 @@ const skillSets = {
       {
         id: "2",
         title: "Databases & Tools",
-        items: ["PostgreSQL",  "MySQL","MongoDB", "AWS"]
+        items: ["PostgreSQL",  "MySQL","MongoDB", ]
       }
     ]
   },
