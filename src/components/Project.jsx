@@ -25,7 +25,7 @@ const Projects = () => {
       title: "Patient Management System",
       description:
         "A Spring Boot-based Patient Management System that allows users to register and pick appointments. This system enables users to create an account, log in, and select available appointment slots with a doctor.",
-      tags: ["React", "Firebase", "AI", "Serverless"],
+      tags: ["Spring Boot","React"],
       githubUrl: "https://github.com/chouket0102/patient-system",
       liveUrl: "",
       colorAccent: "from-blue-500 to-indigo-500",
@@ -35,7 +35,7 @@ const Projects = () => {
       title: "Serverless AI Agent",
       description:
         "Autonomous AI agent that performs tasks and solves problems without requiring dedicated server infrastructure, built with GROC architecture.",
-      tags: ["GROC", "Serverless", "AI", "Cloud Functions"],
+      tags: ["GROC", "Serverless", "AI"],
       githubUrl: "https://github.com/chouket0102/serverlessAI-agent",
       liveUrl: "https://serverless-ai-agent.vercel.app",
       colorAccent: "from-purple-500 to-pink-500",
